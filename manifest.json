@@ -1,8 +1,9 @@
 {
   "manifest_version": 3,
   "name": "YATE",
-  "description": "Yet another tab organization extension",
-  "version": "1.0",
+  "description": "Yet another tab extension. An extension to group tabs by hostname, search and sort tabs",
+  "version": "0.0.0.1",
+  "icons": ["tab.png"],
   "action": {
     "default_popup": "tabs.html",
     "default_icon": "tab.png"

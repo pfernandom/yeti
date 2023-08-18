@@ -13,7 +13,7 @@ const external = [
 ];
 
 const sharedConfig = {
-  entryPoints: ["src/scripts/content.ts", "src/scripts/popup.ts"],
+  entryPoints: ["src/scripts/popup.ts"],
   bundle: true,
   minify: true,
   external: external.filter((dep) => !dep.includes("lodash")),
