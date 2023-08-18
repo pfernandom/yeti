@@ -1,0 +1,12 @@
+{
+  "manifest_version": 3,
+  "name": "YATE",
+  "description": "Yet another tab organization extension",
+  "version": "1.0",
+  "action": {
+    "default_popup": "tabs.html",
+    "default_icon": "tab.png"
+  },
+  "permissions": ["tabGroups", "tabs"],
+  "content_scripts": []
+}

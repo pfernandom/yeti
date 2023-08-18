@@ -1,0 +1,30 @@
+<html>
+    <head>
+        <meta charset="UTF-8" />
+        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <link rel="stylesheet" href="./styles/popup.css" />
+      </head>
+  <body>  
+      <div class="actions">
+        <button id="group">Sort and group Tabs</button>
+        <button id="sort">Sort Tabs</button>
+        <button id="closeDuplicated">Close duplicated tabs</button>
+        <button id="closeNew">Close un-used "New Tab"s</button>
+      </div>
+
+      <div id="messages" class="messages"></div>
+ 
+
+      <div class="p1">
+        <label><span class="text-600">Search tab:</span>
+          <input id="tab-search" />
+        </label>
+
+        <div id="search-result"></div>
+      </div>
+      <ul></ul>
+  
+      <script src="./dist/esm/popup.js" type="module"></script>
+  </body>
+</html>
